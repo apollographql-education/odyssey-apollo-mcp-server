@@ -1,7 +1,0 @@
-query GetAlerts($state: String!) {
-  alerts(state: $state) {
-    severity
-    description
-    instruction
-  }
-}
