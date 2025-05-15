@@ -1,5 +1,6 @@
 federation_version: =2.10.0
 subgraphs:
   listings:
-    routing_url:
+    routing_url: https://rt-airlock-subgraphs-listings.herokuapp.com/
     schema:
+      file: listings.graphql
